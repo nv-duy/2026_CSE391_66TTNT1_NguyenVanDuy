@@ -14,6 +14,7 @@
 - Tạo mục giới thiệu khóa học
 - Tạo mục mô tả chung khóa học
 - Chèn icon tại mỗi mô tả 
+- Trình bày rõ ràng, dễ đọc
 
 # Bài tập 03
 - Tạo bảng điểm sinh viên
@@ -29,7 +30,16 @@
 - Nhập địa chỉ
 - Nhập ghi chú
 - Nút submit và cancel form
+- Trình bày rõ ràng, dễ đọc
 
+# Bài tập 05
+- Tạo giao diện web quản lí nhân viên
+- Tạo thanh nav-bar (Home, contact và thanh tìm kiếm)
+- Tạo bảng thông tin nhân viên
+- Tạo form nhập thông tin nhân viên
+- Nút Edit và Delete thông tin nhân viên
+- Nút Save và cancel form
+- Trình bày rõ ràng, dễ đọc
 ## Công nghệ sử dụng
 - HTML5
 - Bootstrap icon
@@ -39,6 +49,13 @@
 ├─BTTH_01/
 │  ├─BaiTap_02.html
 │  ├─BaiTap_03.html
+│  ├─BaiTap_04.html
+│  ├─BaiTap_05.html
+│  └──Minh_Chung/
+│  │  ├─BaiTap_02.png
+│  │  ├─BaiTap_03.png
+│  │  ├─BaiTap_04.png
+│  │  └──BaiTap_05.png
 │  └──images/
 │    ├─Course_01.png
 │    ├─Course_02.png
@@ -52,3 +69,5 @@
 3. Mở file `BaiTap_03` bằng trình duyệt web.
 4. Mở file `BaiTap_04` bằng trình duyệt web.
     4.1 Nhập thông tin và kiểm tra giao diện form
+5. Mở file `BaiTap_05` bằng trình duyệt web.
+    5.1 Nhập thông tin và kiểm tra giao diện form
