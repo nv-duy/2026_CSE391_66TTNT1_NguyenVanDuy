@@ -35,7 +35,7 @@
 - Bootstrap icon
 
 ## Cấu trúc thư mục
-2026_CSE391_66TTNT1_NguyenVanDuy
+2026_CSE391_66TTNT1_NguyenVanDuy/
 ├─BTTH_01/
 │  ├─BaiTap_02.html
 │  ├─BaiTap_03.html
