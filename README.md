@@ -14,8 +14,9 @@
 - HTML5
 
 ## Cấu trúc thư mục
-BTTH1/
-├─BaiTap_02.html
+Practice_Excercises/2026_CSE391_66TTNT1_NguyenVanDuy
+├─BTTH1
+  ├─BaiTap_02.html
 ├─README.md
 
 ## Hướng dẫn chạy
