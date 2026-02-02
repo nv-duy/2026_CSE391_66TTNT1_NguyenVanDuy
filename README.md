@@ -18,7 +18,17 @@
 # Bài tập 03
 - Tạo bảng điểm sinh viên
 - Áp dụng colspan và rowspan 
+- Hiển thị dữ liệu điểm thành phần của các trường
 - Trình bày rõ ràng, dễ đọc
+
+# Bài tập 04
+- Tạo form đăng ký tuyển dụng
+- Nhập họ tên, email, số điện thoại
+- Chọn giới tính (radio)
+- Chọn ca làm việc (checkbox)
+- Nhập địa chỉ
+- Nhập ghi chú
+- Nút submit và cancel form
 
 ## Công nghệ sử dụng
 - HTML5
@@ -37,5 +47,8 @@
 └──README.md
 
 ## Hướng dẫn chạy
-Mở file `BaiTap_02` bằng trình duyệt web.
-Mở file `BaiTap_03` bằng trình duyệt web.
+1. Clone hoặc tải project về máy
+2. Mở file `BaiTap_02` bằng trình duyệt web.
+3. Mở file `BaiTap_03` bằng trình duyệt web.
+4. Mở file `BaiTap_04` bằng trình duyệt web.
+    4.1 Nhập thông tin và kiểm tra giao diện form
