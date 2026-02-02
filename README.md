@@ -9,15 +9,33 @@
 
 ## Mô tả bài tập
 # Bài tập 02
+- Tạo 4 mục hiển thị khóa học
+- Chèn ảnh minh họa mỗi khóa học
+- Tạo mục giới thiệu khóa học
+- Tạo mục mô tả chung khóa học
+- Chèn icon tại mỗi mô tả 
+
+# Bài tập 03
+- Tạo bảng điểm sinh viên
+- Áp dụng colspan và rowspan 
+- Trình bày rõ ràng, dễ đọc
 
 ## Công nghệ sử dụng
 - HTML5
+- Bootstrap icon
 
 ## Cấu trúc thư mục
-Practice_Excercises/2026_CSE391_66TTNT1_NguyenVanDuy
-├─BTTH1
-  ├─BaiTap_02.html
-├─README.md
+2026_CSE391_66TTNT1_NguyenVanDuy
+├─BTTH_01/
+│  ├─BaiTap_02.html
+│  ├─BaiTap_03.html
+│  └──images/
+│    ├─Course_01.png
+│    ├─Course_02.png
+│    ├─Course_03.png
+│    └──Course_04.png
+└──README.md
 
 ## Hướng dẫn chạy
 Mở file `BaiTap_02` bằng trình duyệt web.
+Mở file `BaiTap_03` bằng trình duyệt web.
