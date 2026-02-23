@@ -61,6 +61,9 @@
 │    ├─Course_02.png
 │    ├─Course_03.png
 │    └──Course_04.png
+├─BTTH_02/
+│  ├─BT_01.html
+│  └──style_01.css
 └──README.md
 
 ## Hướng dẫn chạy
