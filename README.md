@@ -63,14 +63,18 @@
 │    └──Course_04.png
 ├─BTTH_02/
 │  ├─BT_01.html
+│  ├─Phiếu học tập CSS - BTTH02 - K66.docx
 │  └──style_01.css
+├─BTTH_02_v2/
+│  ├─BT_01.html
+│  ├─BT_02.html
+│  ├─BT_03.html
+│  ├─style_01.css
+│  ├─style_02.css
+│  └──style_03.css
 └──README.md
 
 ## Hướng dẫn chạy
 1. Clone hoặc tải project về máy
-2. Mở file `BaiTap_02` bằng trình duyệt web.
-3. Mở file `BaiTap_03` bằng trình duyệt web.
-4. Mở file `BaiTap_04` bằng trình duyệt web.
-    4.1 Nhập thông tin và kiểm tra giao diện form
-5. Mở file `BaiTap_05` bằng trình duyệt web.
-    5.1 Nhập thông tin và kiểm tra giao diện form
+2. Mở file bằng trình duyệt web.
+
