@@ -66,6 +66,16 @@
 │  ├─Phiếu học tập CSS - BTTH02 - K66.docx
 │  └──style_01.css
 ├─BTTH_02_v2/
+│  ├─img_BT_02/
+│  │  ├─background-img/
+│  │  │  └──ocean.jpg
+│  │  ├─place-imgs/
+│  │  │  ├─barcelona.jpg
+│  │  │  ├─miami.jpg
+│  │  │  └──munich.jpg
+│  │  └──social-icons/
+│  │      ├─facebook.jpg
+│  │      └──insta.jpg
 │  ├─BT_01.html
 │  ├─BT_02.html
 │  ├─BT_03.html
@@ -77,4 +87,3 @@
 ## Hướng dẫn chạy
 1. Clone hoặc tải project về máy
 2. Mở file bằng trình duyệt web.
-
