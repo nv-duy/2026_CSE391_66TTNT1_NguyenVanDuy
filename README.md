@@ -8,41 +8,103 @@
 - Môn học: Nền tảng phát triển web
 
 ## Mô tả bài tập
-# Bài tập 02
-- Tạo 4 mục hiển thị khóa học
-- Chèn ảnh minh họa mỗi khóa học
-- Tạo mục giới thiệu khóa học
-- Tạo mục mô tả chung khóa học
-- Chèn icon tại mỗi mô tả 
-- Trình bày rõ ràng, dễ đọc
+# BTTH_01
+    Bài tập 02
+    - Tạo 4 mục hiển thị khóa học
+    - Chèn ảnh minh họa mỗi khóa học
+    - Tạo mục giới thiệu khóa học
+    - Tạo mục mô tả chung khóa học
+    - Chèn icon tại mỗi mô tả 
+    - Trình bày rõ ràng, dễ đọc
 
-# Bài tập 03
-- Tạo bảng điểm sinh viên
-- Áp dụng colspan và rowspan 
-- Hiển thị dữ liệu điểm thành phần của các trường
-- Trình bày rõ ràng, dễ đọc
+    Bài tập 03
+    - Tạo bảng điểm sinh viên
+    - Áp dụng colspan và rowspan 
+    - Hiển thị dữ liệu điểm thành phần của các trường
+    - Trình bày rõ ràng, dễ đọc
 
-# Bài tập 04
-- Tạo form đăng ký tuyển dụng
-- Nhập họ tên, email, số điện thoại
-- Chọn giới tính (radio)
-- Chọn ca làm việc (checkbox)
-- Nhập địa chỉ
-- Nhập ghi chú
-- Nút submit và cancel form
-- Trình bày rõ ràng, dễ đọc
+    Bài tập 04
+    - Tạo form đăng ký tuyển dụng
+    - Nhập họ tên, email, số điện thoại
+    - Chọn giới tính (radio)
+    - Chọn ca làm việc (checkbox)
+    - Nhập địa chỉ
+    - Nhập ghi chú
+    - Nút submit và cancel form
+    - Trình bày rõ ràng, dễ đọc
 
-# Bài tập 05
-- Tạo giao diện web quản lí nhân viên
-- Tạo thanh nav-bar (Home, contact và thanh tìm kiếm)
-- Tạo bảng thông tin nhân viên
-- Tạo form nhập thông tin nhân viên
-- Nút Edit và Delete thông tin nhân viên
-- Nút Save và cancel form
-- Trình bày rõ ràng, dễ đọc
-## Công nghệ sử dụng
-- HTML5
-- Bootstrap icon
+    Bài tập 05
+    - Tạo giao diện web quản lí nhân viên
+    - Tạo thanh nav-bar (Home, contact và thanh tìm kiếm)
+    - Tạo bảng thông tin nhân viên
+    - Tạo form nhập thông tin nhân viên
+    - Nút Edit và Delete thông tin nhân viên
+    - Nút Save và cancel form
+    - Trình bày rõ ràng, dễ đọc
+    Công nghệ sử dụng
+    - HTML5
+    - Bootstrap icon
+# BTTH_02
+    - Tìm hiểu các thuộc tính cơ bản css
+    - Học cách kiểm soát layout bằng flexbox & grid
+    - Tạo giao diện Blog cá nhân
+    - Tạo thanh navbar (Home, About, Contact)
+    - Nút Đọc thêm, cuộn lên đầu trang
+    - Áp dụng cho style_01.css
+        - Đổi font chữ, màu nền
+        - Flexbox căn giữa cho thanh navbar
+        - Hover cho thanh navbar khi di trỏ chuột
+        - Flexbox wrap cho 3 bài viết tự tính toán & sắp xếp vị trí
+        - Thích ứng cho trang hiển thị đối với thiết bị di động
+        - Grid hiển thị phần gallery thành dạng table
+        - Position sticky cho nút mũi tên quay về đầu trang luôn hiển thị cố định khi scroll
+        - Hover nút mũi tên
+    - Trình bày rõ ràng, tương tự theo mẫu
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+# BTTH_02_v2
+    Bài tập 01
+    - Tạo form điền thông tin liên lạc
+    - Tạo nút Send Message
+    - Áp dụng cho style_01.css
+        - Flexbox căn giữa cho 2 thanh điền thông tin name &  email
+        - Hover cho nút Send Message khi di trỏ chuột
+    - Trình bày rõ ràng, tương tự theo mẫu
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+
+    Bài tập 02
+    - Tạo giao diện web khám phá địa điểm du lịch
+    - Tạo thanh navbar (Destinations, About)
+    - Tạo nút Discover places
+    - Chèn ảnh background
+    - Tạo icon liên kết mạng xã hội
+    - Áp dụng cho style_02.css
+        - Flexbox căn giữa sang 2 bên cho header
+        - Liên kết và thêm font chữ bên ngoài cho trang web
+        - Positipon absolute căn cho phần discover nằm giữa background
+        - Chèn ảnh tại highlights
+        - Flexbox căn giữa cho ảnh minh họa địa điểm du lịch
+        - Flexbox căn giữa cho 2 biểu tượng liên kết mạng xã hội
+        - Đổi màu background footer
+    - Trình bày rõ ràng, tương tự theo mẫu
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+    Bài tập 03
+    - Tạo giao diện hiển thị các đoạn văn ngắn
+    - Tạo 2 phần trái, phải để chèn văn bản 
+    - Áp dụng cho style_03.css
+        - Flexbox căn giữa cho tiêu đề
+        - Liên kết và thêm font chữ bên ngoài cho trang web
+        - Flexbox căn giữa, chia tỉ lệ 4/6 cho phần trái phải
+        - Trình bày rõ ràng, tương tự theo mẫu
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+    
 
 ## Cấu trúc thư mục
 2026_CSE391_66TTNT1_NguyenVanDuy/
