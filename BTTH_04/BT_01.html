@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student management</title>
+    <link rel="stylesheet" href="style_01.css">
+</head>
+<body>
+    <header>
+        <h2>Student Management</h2>
+        <input type="text" id="name" placeholder="Nhập họ tên..." required>
+        <input type="number" id="score" placeholder="Nhập điểm... (0-10)" required>
+        <button id="add">Thêm</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ Tên</th>
+                    <th>Điểm</th>
+                    <th>Xếp loại</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+
+            <tfooter>
+                <tr>
+                    <th colspan="4" id="total"></th>
+                    <th colspan="1" id="avg"></th>
+                </tr>
+            </tfooter>
+        </table>
+    </header>
+    <script src="dom_01.js"></script>
+</body>
+</html>

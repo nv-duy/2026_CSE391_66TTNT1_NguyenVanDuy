@@ -1,0 +1,13 @@
+.table, th, tr{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.Low-score {
+    background-color: yellow;
+}
+
+
