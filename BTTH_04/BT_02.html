@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student management</title>
+    <link rel="stylesheet" href="style_02.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="demoValidation.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+	<style>
+        .error {
+            color: red;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" id="form">
+        <div class="field">
+            <input type="text" id="name" name="name" placeholder="Họ tên">
+        </div>
+        <div class="field">
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="field">
+            <input type="tel" id="phone" name="phone" placeholder="Số điện thoại">
+        </div>
+        <div class="field">
+            <input type="password" id="password" name="password" placeholder="Mật khẩu">
+        </div>
+        <div class="field">
+            <input type="password" id="re-password" name="re-password" placeholder="Nhập lại mật khẩu">
+        </div>
+        <div class="field">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nữ</label>
+        </div>
+        <div class="field">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">Các điều khoản</label>
+        </div>
+        <button type="submit" id="btn-submit">Submit</button>
+    </form>
+    <script src="dom_02.js"></script>
+</body>
+</html>
