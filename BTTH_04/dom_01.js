@@ -1,4 +1,5 @@
 let students = [];
+let filteredStudents = [];
 
 function xeploai(score) {
     if (score >= 8.5) return "Giỏi";
@@ -7,12 +8,13 @@ function xeploai(score) {
     else {return "Yếu";}
 }
 
-function renderTable (){
+function renderTable(){
     let tbody = document.getElementById('tbody');
     tbody.innerHTML = "";
 
-    students.forEach((sv, index) => {
+    filteredStudents.forEach((sv, index) => {
         let tr = document.createElement("tr");
+        let actualIndex = students.indexOf(sv);
 
         if (sv.score < 5) {
             tr.classList.add("Low-score");
@@ -22,7 +24,7 @@ function renderTable (){
         <td>${sv.name}</td>
         <td>${sv.score}</td>
         <td>${xeploai(sv.score)}</td>
-        <td><button data-index="${index}">Xóa</button></td>
+        <td><button data-index="${actualIndex}">Xóa</button></td>
         `;
 
         tbody.appendChild(tr);
@@ -41,18 +43,28 @@ function updateStat(){
     document.getElementById("avg").innerText = "Trung bình điểm: " + avg.toFixed(2);
 }
 
+function applyFilters(){
+    let keyword = document.getElementById("search").value.trim().toLowerCase();
+
+    filteredStudents = students.filter(sv => sv.name.toLowerCase().includes(keyword));
+    renderTable();
+}
+
 function addStudents(){
     let name = document.getElementById("name").value.trim();
-    let score = document.getElementById("score").value;
+    let scoreVal = document.getElementById("score").value.trim();
+    
     if (!name){
         alert("Họ tên không được để trống!");
         return;
     }
 
-    if (!score){
+    if (scoreVal === ""){
         alert("Điểm không được để trống!");
         return;
-    };
+    }
+    
+    let score = parseFloat(scoreVal);
 
     if (isNaN(score) || score < 0 || score > 10){
         alert("Điểm phải từ 0 đến 10!");
@@ -61,11 +73,15 @@ function addStudents(){
 
     students.push({name:name, score:score});
 
-    renderTable();
+    applyFilters();
     document.getElementById("name").value = "";
     document.getElementById("score").value = "";
     document.getElementById("name").focus();
 }
+
+document.getElementById("btn-search").addEventListener("click", function() {
+    applyFilters();
+});
 
 document.getElementById("add").onclick = addStudents;
 
@@ -79,8 +95,6 @@ document.getElementById("tbody").addEventListener("click", (e) => {
     if (e.target.tagName === "BUTTON") {
         let index = e.target.dataset.index;
         students.splice(index, 1);
-        renderTable();
+        applyFilters();
     }
 });
-
-
