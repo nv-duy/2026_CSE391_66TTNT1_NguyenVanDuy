@@ -104,6 +104,51 @@
     Công nghệ sử dụng
     - HTML5
     - CSS
+
+# BTTH_04
+    Bài tập 01
+    - Tạo giao diện hiển thị bảng điểm
+    - Áp dụng cho style_01.css
+        - Căn giữa và viền đậm cho bảng
+        - Đổi màu nền cho dòng có điểm < 5
+    - Áp dụng cho dom_01.js
+        - Tạo mảng chứa dữ liệu sinh viên
+        - Tạo hàm xếp loại điểm
+        - Tạo hàm hiển thị dữ liệu lên bảng
+        - Tạo hàm cập nhật số lượng sinh viên và điểm trung bình tổng
+        - Tạo hàm tìm kiếm theo từ khóa
+        - Tạo hàm tạo mới và thêm sinh viên
+        - Tạo sự kiện cho các nút
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+    - Javascript
+
+    Bài tập 02
+    - Tạo giao diện form nhập thông tin cá nhân
+    - Áp dụng css cho hiển thị lỗi
+    - Áp dụng cho dom_02.js
+        - Validate cho form bằng Jquery
+        - Hiển thị lỗi khi người dùng nhập không đúng định dạng
+        - Tạo hàm khi submit sẽ ẩn form sau đó hiện thông báo
+    Công nghệ sử dụng
+    - HTML5
+    - CSS
+    - Javascript
+
+    Bài tập 2.2
+    - Tạo giao diện form nhập thông tin đơn hàng
+    - Áp dụng css cho hiển thị lỗi
+    - Áp dụng cho dom_2.2.js
+        - Đặt giới hạn nhập cho ngày giao hàng
+        - Tạo hàm đếm ký tự cho phần mô tả
+        - Validate cho form bằng Jquery
+        - Hiển thị lỗi khi người dùng nhập không đúng định dạng
+    Công nghệ sử dụng 
+    - HTML5
+    - CSS
+    - Javascript
+
     
 
 ## Cấu trúc thư mục
@@ -144,6 +189,14 @@
 │  ├─style_01.css
 │  ├─style_02.css
 │  └──style_03.css
+├─BTTH_04/
+│  ├─BT_01.html
+│  ├─BT_02.html
+│  ├─BT_2.2.html
+│  ├─dom_01.js
+│  ├─dom_02.js
+│  ├─dom_2.2.js
+│  └──style_01.css
 └──README.md
 
 ## Hướng dẫn chạy
