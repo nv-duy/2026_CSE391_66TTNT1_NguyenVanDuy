@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="demoValidation.js" type="text/javascript"></script>
+    <style>
+        .error {
+            color: red;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" id="form">
+        <div class="field">
+        <label for="name">Tên sản phẩm:</label>
+        </div>
+        <div class="field">
+            <select name="name" id="name">
+                <option value="product1">Sản phẩm 1</option>
+                <option value="product2">Sản phẩm 2</option>
+                <option value="product3">Sản phẩm 3</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="amount">Số lượng:</label>
+            <input type="number" name="amount" id="amount" min="1" value="1">
+        </div>
+        <div class="field">
+            <label for="date">Ngày giao hàng:</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="field">
+            <label for="location">Địa chỉ giao hàng:</label>
+            <input type="text" name="location" id="location">
+        </div>
+        <div class="field">
+            <label for="note">Ghi chú:</label>
+            <div style="position: relative;">
+                <textarea name="note" id="note"></textarea>
+                <span id="charCount" style="position: absolute; bottom: 5px; right: 10px; font-size: 12px; color: #666;">0/200</span>
+            </div>
+        </div>
+        <div class="field">
+            <label for="payments">Phương thức thanh toán:</label>
+            <input type="radio" name="payments" id="cod">
+            <label for="cod">COD</label>
+            <input type="radio" name="payments" id="bank">
+            <label for="bank">Chuyển khoản</label>
+            <input type="radio" name="payments" id="momo">
+            <label for="momo">Momo</label>
+        </div>
+        <button type="submit" id="btn-submit">Đặt hàng</button>
+    </form>
+    <script src="dom_2.2.js"></script>
+</body>
+</html>
